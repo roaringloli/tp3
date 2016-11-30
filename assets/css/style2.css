@@ -1,13 +1,13 @@
 .menu
 {
  background-color:#00AA99;
+ font-family: "Sans-serif";
 }
 
 .menu a
 {
   color:#FFFFFF;
   text-decoration:none;
-  
 }
 
 .menu a:hover
@@ -18,4 +18,12 @@
 .menu li
 {
   display:inline;
+}
+
+.menu ul > li:first-child
+{
+  float:right;
+  margin-right: 150px;
+  border:1px solid white;
+  border-radius:5px;
 }

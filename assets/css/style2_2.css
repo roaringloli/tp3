@@ -1,0 +1,73 @@
+.menu
+{
+ background-color:#00AA99;
+ font-family: "Sans-serif";
+}
+
+.menu a
+{
+  color:#FFFFFF;
+  text-decoration:none;
+}
+
+.menu a:hover
+{
+  text-decoration:underline;
+}
+
+.menu li
+{
+  display:inline;
+}
+
+.menu ul > li:first-child
+{
+  float:right;
+  margin-right: 150px;
+  border:1px solid white;
+  border-radius:5px;
+}
+
+@media screen and (max-width:600px)
+{
+  body
+  {
+   background-color: #00AA99;  
+  }
+ .menu
+  {
+ background-color:#00AA99;
+ font-family: "Sans-serif";
+}
+
+.menu a
+{
+  color:#FFFFFF;
+  text-decoration:none;
+}
+
+.menu a:hover
+{
+  text-decoration:underline;
+}
+
+.menu li
+{
+ display:block;
+ text-align: center;
+}
+
+.menu ul > li:first-child
+{
+  float:none;
+  text-align: center;
+  margin-right:5px;
+  margin-left:5px;
+  border:1px solid white;
+  border-radius:5px;
+} 
+.menu ul
+{
+  margin-left:-40px;
+}
+}
